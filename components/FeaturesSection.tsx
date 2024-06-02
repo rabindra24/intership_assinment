@@ -3,6 +3,7 @@ import {
   advantage,
   backgroundgradient,
   ellipse,
+  features,
   home,
   starblack,
 } from "@/public/images";
@@ -18,7 +19,7 @@ const FeatureSection = () => {
     >
       <div className="relative top-0 left-0 flex items-center justify-center max-md:order-2">
         <Image
-          src={advantage}
+          src={features}
           width={500}
           height={500}
           alt="homesection"
